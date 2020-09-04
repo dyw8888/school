@@ -25,7 +25,7 @@ SECRET_KEY = 'u+2b8wqj&qu@pk7fq7&vlh(xe+_5-gfti5_9$hab6u*p6@9nn@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', '121.199.79.182','.dusaiphoto.com']
+ALLOWED_HOSTS = ['127.0.0.1', '121.199.79.182', '.dusaiphoto.com']
 
 
 # Application definition
@@ -120,6 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 STATICFILES_DIRS = (
 
     os.path.join(BASE_DIR, 'static'),
